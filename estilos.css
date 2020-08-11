@@ -1,37 +1,11 @@
-@font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?vf2zwo');
-    src:  url('../fonts/icomoon.eot?vf2zwo#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?vf2zwo') format('truetype'),
-      url('../fonts/icomoon.woff?vf2zwo') format('woff'),
-      url('../fonts/icomoon.svg?vf2zwo#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-menu:before {
-    content: "\e900";
-  }
 
 body{
     margin: 0em;
     padding: 0em;
+    background-image: url(./assets/background-space5.jpg);
+    background-repeat: repeat-y;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 h1{
@@ -40,25 +14,21 @@ h1{
     font-family: 'Lato', sans-serif;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+h5{
+    color: #0AC8B1;
 }
 
-.navbar .menu{
-    text-decoration: none;
+.header a{
+    color: black;
 }
 
-ol{
-    list-style: none;
-}
+/*Hero*/
 
 .hero{
     background-image: url('./assets/background-space.jpg');
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    display: flex;
 }
 
 .hero-logo{
@@ -73,7 +43,6 @@ ol{
 }
 
 .hero-text{
-    display: flex;
     width: 250px;
     text-align: center;
     justify-content: center;
@@ -91,4 +60,111 @@ a{
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+/*Catálogo*/
+
+.catalogo{
+    background-image: url(./assets/background-space5.jpg);
+    background-repeat: repeat-y;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo-title{
+    display: flex;
+    color: white;
+    margin: 0em;
+    padding: 30px 0px;
+}
+
+.catalogo-cuadrado{
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: 2;
+    justify-content: center;
+}
+
+.cuadrado{
+    border-radius: 10px;
+    background-color:#1f8bac51;
+    width: 150px;
+    height: 190px;
+}
+
+.cuadrado img{
+    padding-top: 10px;
+}
+
+/*FAQs*/
+
+.faq-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.cards-faq{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: 5;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.cards{
+    background-color: rgba(255, 255, 255, 0.899);
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.cards p{
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+/*Contacro*/
+
+.contacto-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contacto-button{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-button button{
+    background-color: #0AC8B1;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/*Footer*/
+
+footer img{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links{
+    color: white;
+    text-align: center;
 }

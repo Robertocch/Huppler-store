@@ -1,4 +1,4 @@
-let button = document.getElementById('icon');
+/* let button = document.getElementById('icon');
 let enlaces = document.getElementById('enlaces');
 let contador = 0;
 
@@ -30,4 +30,4 @@ window.addEventListener('click',function(e){
             contador=0;
         }
     }
-});
+}); */
