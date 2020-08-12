@@ -28,7 +28,7 @@ h5{
     background-image: url('./assets/background-space.jpg');
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 720px;
 }
 
 .hero-logo{
@@ -46,12 +46,14 @@ h5{
     width: 250px;
     text-align: center;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .hero button{
     width: 150px;
     height: 50px;
     border-radius: 20px;
+    margin-top: 60px;
     background-color: black;
     border-color: black;
 }
@@ -62,6 +64,19 @@ a{
     font-size: 18px;
 }
 
+.drop-down{
+    display: grid;
+    grid-template-columns: repeat(1, 50px);
+    grid-template-rows: 3;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.drop-down img{
+    width: 80px;
+    height: 50px;
+    margin: -10px;
+}
 /*Catálogo*/
 
 .catalogo{
@@ -122,15 +137,19 @@ a{
     width: 300px;
     height: 60px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cards p{
-    padding-left: 15px;
-    padding-top: 5px;
+    padding-left: 20px;
     font-size: 14px;
 }
 
-/*Contacro*/
+.cards img{
+    margin-left: 10px;
+}
+/*Contacto*/
 
 .contacto-title{
     color: white;
@@ -164,7 +183,24 @@ footer img{
     justify-content: center;
 }
 
-.footer-links{
+.footer-links {
     color: white;
     text-align: center;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-evenly
+
+}
+
+.footer-social img{
+    width: 50px;
+    padding: 5px 10px;
+}
+
+.derechos p{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 }

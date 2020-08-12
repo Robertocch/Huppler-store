@@ -1,0 +1,61 @@
+body{
+    background-image: url(./assets/background-space5.jpg);
+    background-repeat: repeat-y;
+}
+
+.title h2{
+    display: flex;
+    justify-content: center;
+
+}
+.background-item{
+    display: flex;
+    justify-content: center;
+}
+
+.background-item span{
+    border-radius: 10px;
+    background-color:#1f8bac51;
+    width: 295px;
+    height: 375px;
+}
+
+.background-item img{
+    width: 295px;
+    height: 295px;
+    padding-top: 40px;
+}
+
+.article h2{
+    color: white;
+    font-family: lato;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.description p{
+    color: white;
+    text-align: center;
+}
+
+.opciones{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    margin: 20px 0px;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: white;
+}
+
+.opciones p{
+    margin: 0px;
+}
