@@ -112,7 +112,15 @@ a{
 }
 
 .cuadrado img{
-    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.cuadrado h3{
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
 
 /*FAQs*/
@@ -168,6 +176,7 @@ a{
     width: 200px;
     height: 40px;
     border-radius: 20px;
+    border-style: none;
 }
 
 /*Footer*/
@@ -203,4 +212,5 @@ footer img{
     color: white;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 10px;
 }

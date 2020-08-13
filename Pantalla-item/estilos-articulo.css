@@ -1,11 +1,12 @@
 body{
-    background-image: url(./assets/background-space5.jpg);
+    background-image: url(../assets/background-space5.jpg);
     background-repeat: repeat-y;
 }
 
 .title h2{
     display: flex;
     justify-content: center;
+    margin: 10px;
 
 }
 .background-item{
@@ -46,7 +47,8 @@ body{
 .opciones{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 0px 50px;
     font-size: 10px;
     margin: 20px 0px;
 }
@@ -58,4 +60,34 @@ body{
 
 .opciones p{
     margin: 0px;
+}
+
+.tallas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 80px;
+}
+
+.tallas button{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #C4C4C4;
+    font-weight: 700;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.comprar button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0AC8B1;
+    color: white;
+    border-style: none;
 }
