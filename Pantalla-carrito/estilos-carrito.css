@@ -32,3 +32,34 @@ h2{
     font-size: 20px;
     font-weight: 600;
 }
+
+.separador{
+    display: flex;
+    justify-content: center;
+}
+
+.linea-separador{
+    background-color: white;
+    border-top: 1px solid white;
+    width: 80%;
+}
+
+.background-item{
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+    margin-left: 50px;
+}
+
+.cuadrado{
+    border-radius: 10px;
+    background-color:#1f8bac51;
+    width: 70px;
+    height: 80px;
+}
+
+.cuadrado img{
+    margin-top: 5px;
+    width: 68px;
+    height: 68px;
+}
