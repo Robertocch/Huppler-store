@@ -31,3 +31,9 @@ window.addEventListener('click',function(e){
         }
     }
 }); */
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+
+
+hamburgerBtn.addEventListener('click', () => {
+  sideMenu.classList.toggle('open');
+})

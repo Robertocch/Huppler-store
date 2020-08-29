@@ -214,3 +214,84 @@ footer img{
     padding-bottom: 10px;
     font-size: 10px;
 }
+
+/* SideBar */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#sideMenu {
+  width:250px;
+  position: fixed;
+  top:0;
+  left:0;
+  height:100vh;
+  background-color: #252a32;
+  color: white;
+  padding: 30px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0.99
+}
+
+.nav-items {
+    padding-inline-start: 0;
+}
+
+.nav-items > li{
+  list-style-type: none;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.nav-items > li:hover{
+  cursor: pointer;
+  transform: scale(1.01)
+}
+
+#hamburgerBtn {
+  color: white;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#hamburgerBtn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    margin-left: 0px;
+  }
+  #sideMenu {
+    width: 100vw; 
+    transform: translateX(1000px);
+    transition: 500ms transform;
+  }
+  
+  #sideMenu.open {
+    transform: translateX(0);
+  }
+  
+  .nav-items > li{
+    list-style-type: none;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  #hamburgerBtn {
+    display: inline-block;
+    z-index: 10;
+  }
+}
